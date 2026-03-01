@@ -52,7 +52,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover; /* Crop the image to fill the banner space */
-            object-position: center 90%;
+            object-position: center 70%;
         }
 
         .caption-overlay {
@@ -95,16 +95,28 @@
     </section>
 
     <main class="container my-5" style="max-width: 1000px;">
-        <section class="row align-items-center mb-5 pb-5 border-bottom">
-            <div class="col-md-7 mb-4 mb-md-0 pe-md-4">
-                <h2 class="mb-3">Welcome to the UNcaffeinated website!</h2>
-                <p class="fs-5">This is where I share my stories about student life at the University of North Alabama. I’ll talk about campus activities, classes, and my adventures in the UNA community.</p>
-                <p class="fs-5">I love creating videos and media projects, and this is where I’ll post my random thoughts and final edits.</p>
+        <section class="mb-5 pb-5 border-bottom">
+            <div class="d-flex align-items-center flex-wrap gap-3 mb-3">
+                <h2 class="m-0">Welcome to the UNcaffeinated website!</h2>
+                <button type="button" class="btn btn-login px-4 py-2" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    Login
+                </button>
             </div>
             
-            <div class="col-md-5 d-flex justify-content-center">
-                <div class="main-card">
-                    <h3 class="login-title">CIS-376 Login</h3>
+            <p class="fs-5">This is where I share my stories about student life at the University of North Alabama. I’ll talk about campus activities, classes, and my adventures in the UNA community.</p>
+            <p class="fs-5">I love creating videos and media projects, and this is where I’ll post my random thoughts and final edits.</p>
+        </section>
+    </main>
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0" style="background: transparent;">
+                
+                <div class="main-card mx-auto">
+                    <div class="d-flex justify-content-between align-items-start mb-3">
+                        <h3 class="login-title m-0">CIS-376 Login</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
                     
                     <div class="feature-box">
                         <small class="text-muted d-block">Enjoy some coffee blended with low-stress UNA news</small>
@@ -124,10 +136,11 @@
                     
                     <div id="message" class="mt-3 text-center text-danger small"></div>
                 </div>
-            </div>
-        </section>
-    </main>
 
+            </div>
+        </div>
+    </div>
+    
     <footer class="text-center py-4 mt-5 border-top text-muted">
         <p class="mb-0">&copy; 2026 UNCAFFEINATED</p>
     </footer>
@@ -138,6 +151,7 @@
     <script src="scripts/login-script.js"></script>
 </body>
 </html>
+
 
 
 
