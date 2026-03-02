@@ -1,2 +1,6 @@
-# CIS 376 website 1
-CIS 376 
+# UNcaffinated news website
+Low Stress News
+
+My wordpress site:
+https://uncaffeinatednews.wordpress.com/ 
+
