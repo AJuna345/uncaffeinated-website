@@ -2,7 +2,7 @@
 Low Stress News
 
 Description 
-This is a news based website that is based o
+This is a news based website that is based on my news website and show news stories I worked on.
 
 
 My wordpress site:
