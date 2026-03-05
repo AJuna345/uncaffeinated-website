@@ -25,8 +25,3 @@ Repo: https://github.com/AJuna345/CIS-376-Website
 <img width="1441" height="1250" alt="image" src="https://github.com/user-attachments/assets/94eb4c44-839a-4829-946c-f2776105b55f" />
 
 I used the picture news stories from the website. I improved the news site by adding a search bar and fixed how it looked
-
-Description 
-This is a news based website that is based on my news website and show news stories I worked on.
-
-
