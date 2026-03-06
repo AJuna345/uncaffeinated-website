@@ -21,8 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 // Clear any old error messages
                 if (messageDiv) messageDiv.textContent = "";
-                
-                // 4. Redirect to your combined news dashboard
+
+                // Set the session storage flag to true to make sure the site knows the user logged in
+               sessionStorage.setItem('isAuthN', 'true');
+
+                // Redirect to the news page
                 window.location.href = 'pages/news.html'; 
             } else {
                 // 5. Handle the wrong password
