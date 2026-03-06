@@ -13,6 +13,18 @@ body {
     max-width: 400px;
 }
 
+.main-logo {
+    max-width: 80px;
+}
+
+.main-content {
+    max-width: 1000px;
+}
+
+.transparent-modal {
+    background: transparent;
+}
+
 .login-title {
     color: #8e4fd6;
     font-weight: bold;
