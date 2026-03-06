@@ -1,0 +1,58 @@
+        .main-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border-top: 5px solid #8e4fd6; /* UNA Purple */
+            width: 100%;
+            max-width: 400px;
+        }
+        .login-title {
+            color: #8e4fd6;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .feature-box {
+            background-color: rgba(200, 200, 0, 0.1);
+            border-left: 4px solid rgb(194, 58, 123);
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .btn-login {
+            background-color: #8e4fd6;
+            color: white;
+            border: none;
+        }
+        .btn-login:hover {
+            background-color: #723eb1;
+            color: white;
+        }
+
+        .main-banner {
+            width: 100%;
+            height: 350px;
+            position: relative;
+            border-bottom: 1px solid #eaeaea;
+         }
+
+        .main-banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Crop the image to fill the banner space */
+            object-position: center 70%;
+        }
+
+        .caption-overlay {
+            position: absolute;
+            bottom: 10px;
+            right: 15px;
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        
+        /* Minor tweak to custom blog styles to play nicely with Bootstrap */
+        nav ul { padding-left: 0; }
+        .main img { width: 100%; border-radius: 8px; }
