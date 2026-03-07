@@ -10,7 +10,7 @@ Mr. Cumbie/in class/teachers website: used code that I got from Mr. Cumbie and h
 ============================================================================================
 Tagline
 Low Stress News
-
+============================================================================================
 User Story
 As a UNA student
 I want to share my news stories
