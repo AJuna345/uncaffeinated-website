@@ -5,10 +5,9 @@ Bootstrap 5: used to set up the news grid system, navigation bar, and UI compone
 
 Uncaffinated News: used news articles, picures, and inspiration from layout
 
-
 Mr. Cumbie/in class/teachers website: used code that I got from Mr. Cumbie and his website or in class.
 
-
+==============================================================================================================
 Tagline
 Low Stress News
 
