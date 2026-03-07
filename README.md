@@ -7,11 +7,9 @@ Uncaffinated News: used news articles, picures, and inspiration from layout
 
 Mr. Cumbie/in class/teachers website: used code that I got from Mr. Cumbie and his website or in class.
 
-============================================================================================
 Tagline
 Low Stress News
-============================================================================================
-User Story
+
 As a UNA student
 I want to share my news stories
 So that People know about the news that hasn't been shared
