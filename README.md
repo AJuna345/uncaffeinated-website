@@ -2,7 +2,10 @@
 
 Attributions
 Bootstrap 5: used to set up the news grid system, navigation bar, and UI components
+
 Uncaffinated News: used news articles, picures, and inspiration from layout
+
+
 Mr. Cumbie/in class/teachers website: used code that I got from Mr. Cumbie and his website or in class.
 
 
