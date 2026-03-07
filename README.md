@@ -1,9 +1,9 @@
 # UNcaffinated news website
 
 Attributions
-Imports from bootstrap
-Some code from Br,Cumbie that I got from class and from website
-Got design and pictures from Uncaffinated website along with news stories
+Bootstrap 5: used to set up the news grid system, navigation bar, and UI components
+Uncaffinated News: used news articles, picures, and inspiration from layout
+Mr. Cumbie/in class/teachers website: used code that I got from Mr. Cumbie and his website or in class.
 
 
 Tagline
