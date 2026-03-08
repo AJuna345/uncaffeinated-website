@@ -58,5 +58,8 @@ This is the search code that I adapted for the news.html page it waits for an in
 
 <img width="250" height="700" alt="376 website 1" src="https://github.com/user-attachments/assets/e7d7375f-b7dc-4b54-93f5-625c92087284" />
 <img width="250" height="700" alt="3 76 website 2" src="https://github.com/user-attachments/assets/332bfdf1-3f7e-440f-949d-0a53fa8c13c7" />
+![376 website 3](https://github.com/user-attachments/assets/2f22a2b9-fd47-4507-b066-d9b57bfe2189)
+![376 website 4](https://github.com/user-attachments/assets/2913d38e-d43e-479b-aff9-7268a53b9ba5)
+
 
 I have checkedboth desktop and phone and made sure it works.
