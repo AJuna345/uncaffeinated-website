@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 This is the search code that I adapted for the news.html page it waits for an input from the Dom and every key input trigers the code. It then converts the text to lowercase then creates a loop and looks at the .cardtitles of each one. Then it compares the input of the to the .card-titles.
-![Screenshot_20260307-203824](https://github.com/user-attachments/assets/e2a0ebf2-4d52-4138-9d88-7eab0525fecf)
+
+<img width="806" height="1795" alt="376 website 1" src="https://github.com/user-attachments/assets/e7d7375f-b7dc-4b54-93f5-625c92087284" />
 
 I have checkedboth desktop and phone and made sure it works.
