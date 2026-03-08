@@ -36,25 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('newsSearchInput');
     const newsItems = document.querySelectorAll('.news-item');
 
-    if (searchInput) {
-        searchInput.addEventListener('input', function() {
-            const searchTerm = this.value.toLowerCase();
-
-            newsItems.forEach(item => {
-                const title = item.querySelector('.card-title').textContent.toLowerCase();
-                const text = item.querySelector('.card-text').textContent.toLowerCase();
-
-                if (title.includes(searchTerm) || text.includes(searchTerm)) {
-                    item.style.display = ''; 
-                } else {
-                    item.style.display = 'none'; 
-                }
-            });
-        });
-    }
-});
-
-This is the search code that I adapted for the news.html page it waits for an input from the Dom and every key input trigers the code. It then converts the text to lowercase then creates a loop and looks at the .cardtitles of each one. Then it compares the input of the to the .card-titles.
 
 <img width="250" height="700" alt="376 website 1" src="https://github.com/user-attachments/assets/e7d7375f-b7dc-4b54-93f5-625c92087284" />
 <img width="250" height="700" alt="3 76 website 2" src="https://github.com/user-attachments/assets/332bfdf1-3f7e-440f-949d-0a53fa8c13c7" />
