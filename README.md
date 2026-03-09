@@ -103,7 +103,8 @@ I tested the functionality and layout of the UNcaffeinated News application on t
   - Safari (iOS)
 
 ### Android Phone Screenshots
+<img width="250" height="700" alt="376 website 1" src="https://github.com/user-attachments/assets/f89fdc14-5cba-4fd5-b830-6b26f7731a48" />
+<img width="250" height="700" alt="376 website 3" src="https://github.com/user-attachments/assets/8135943e-5d34-4936-9e6f-fa316982f561" />
+<img width="250" height="700" alt="376 website 3" src="https://github.com/user-attachments/assets/8909feeb-0b12-473a-9617-4f3feedbb856" />
 
-![Placeholder for Android screenshot 1](images/placeholder-android-screenshot-1.png)
-![Placeholder for Android screenshot 2](images/placeholder-android-screenshot-2.jpg)
-![Placeholder for Android screenshot 3](images/placeholder-android-screenshot-3.jpg)
+
