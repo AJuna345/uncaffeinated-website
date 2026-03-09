@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Grab the form and the message area by their IDs
     const loginForm = document.getElementById('loginForm');
-    const messageDiv = document.getElementById('message');
+    const messageDiv = document.getElementById('login-error-message');
 
     // Only run this if the login form actually exists on the page
     if (loginForm) {
