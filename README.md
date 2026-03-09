@@ -1,34 +1,59 @@
 # UNCAFFEINATED - Low Stress News
-[cite_start]“UNCAFFEINATED - Low Stress News” [cite: 1, 3]
 
-### Authorship & Attribution
-* [cite_start]**Development & Photography:** Aiden (A.J.) Ramsden [cite: 6]
-* [cite_start]**Inspirations:** WordPress Uncaffeinated News site layouts and interfaces [cite: 16, 17]
-* [cite_start]**Educational Resources:** * Code shared by Professor Barry Cumbie (University of North Alabama) [cite: 18, 19]
-    * [cite_start]W3Schools (HTML, CSS, JS, and JSON tutorials) [cite: 8]
-    * [cite_start]web.dev (Resource hints and font optimization guides) [cite: 11, 12, 14]
-    * [cite_start]Google Fonts (Roboto font implementation) [cite: 10, 26, 28]
-* [cite_start]**Libraries & Frameworks:** Bootstrap 5.3.0 (Grid system, navigation, and UI components) [cite: 20, 21, 22]
-* [cite_start]**Accessibility:** WebAIM Contrast Checker [cite: 9]
-* [cite_start]**Assets:** Banners and articles from Uncaffeinated WordPress and YouTube; dynamic news data from `news-data.json` [cite: 24, 25]
+## App Title
+“UNCAFFEINATED - Low Stress News”
 
-> [cite_start]“Low-stress news about Northern Alabama and UNA student life.” [cite: 30]
+Added required “Title (H1) + short descriptor” to the top
 
-### User Story
-[cite_start]“I want to showcase my UNA media projects and campus stories in a digital portfolio to demonstrate my skills and abilities to potential employers.” [cite: 32]
+## Authorship & Attribution
+Website Development and Photography by [Aiden (A.J.) Ramsden](https://www.facebook.com/profile.php?id=61565364982227)
 
-### Links
-* [cite_start]**Repository:** [https://github.com/ajuna345/uncaffeinated-website](https://github.com/ajuna345/uncaffeinated-website) [cite: 34]
-* [cite_start]**Deployed App:** [https://ajuna345.github.io/uncaffeinated-website/](https://ajuna345.github.io/uncaffeinated-website/) [cite: 35]
-* [cite_start]**Design Evidence (Wiki):** [https://github.com/ajuna345/uncaffeinated-website/wiki/Design-Ideas](https://github.com/ajuna345/uncaffeinated-website/wiki/Design-Ideas) [cite: 36]
+## Resources
+- [W3Schools](https://www.w3schools.com/) [HTML](https://www.w3schools.com/html/default.asp), [CSS](https://www.w3schools.com/css/default.asp), [Javascript](https://www.w3schools.com/js/default.asp), and [Javascript JSON](https://www.w3schools.com/js/js_json.asp) tutorials
+- [WebAIM](https://webaim.org/) [https://webaim.org/resources/contrastchecker/](https://webaim.org/resources/contrastchecker/)
+- [Google Fonts - Getting Started](https://developers.google.com/fonts/docs/getting_started)
+- [web.dev](https://web.dev/)
+  - [Resource Hints](https://web.dev/learn/performance/resource-hints)
+  - [Optimize Resource Loading](https://web.dev/learn/performance/optimize-resource-loading)
+  - [Optimize Web Fonts](https://web.dev/learn/performance/optimize-web-fonts)
 
-### Model / Inspiration
-[cite_start]**Source:** UNCAFFEINATED WordPress News Posts [cite: 38]
-![WordPress Inspiration](https://raw.githubusercontent.com/ajuna345/uncaffeinated-website/main/docs/inspiration-screenshot.png) 
-[cite_start]*Note: I used my portfolio photos for news stories and improved upon the original layout by adding a search bar and modernizing the grid system.* [cite: 39, 40]
+## Inspirations
+- [Wordpress Uncaffeinated News](https://uncaffeinatednews.wordpress.com/) site
+  - Used inspiration from Wordpress layouts and user interfaces.
+- Professor Barry Cumbie, Computer Information Systems, University of North Alabama
+  - Used code shared by Professor Cumbie on his website or in class.
 
-### Code Block & Explanation
-[cite_start]This snippet from `news-search.js` handles the real-time filtering of news stories[cite: 41]:
+## Libraries & Frameworks
+- [Bootstrap 5.3.0](https://getbootstrap.com/): a frontend toolkit for building fast, responsive websites.
+  - Used Bootstrap to set up the news grid system, navigation bar, and UI components.
+
+## Assets
+- Logos, banners, and articles from my Uncaffeinated [Wordpress](https://uncaffeinatednews.wordpress.com/) and [YouTube](https://www.youtube.com/@UNcaffeinated-1) social media sites.
+- News data - a structured data file with content used to create dynamic news cards & grids.
+- Google Fonts
+- Google APIs and Gstatic: used to find fonts and speed them up on my website.
+- [Roboto](https://fonts.google.com/specimen/Roboto) font
+
+## One-liner Quote/Tagline
+“Low-stress news about Northern Alabama and UNA student life.”
+
+## User Story
+“I want to showcase my UNA media projects and campus stories in a digital portfolio to demonstrate my skills and abilities to potential employers.”
+
+## GitHub Links
+- Repo: [https://github.com/ajuna345/uncaffeinated-website](https://github.com/ajuna345/uncaffeinated-website)
+- Deployed App: [https://ajuna345.github.io/uncaffeinated-website/](https://ajuna345.github.io/uncaffeinated-website/)
+- Wiki: [https://github.com/ajuna345/uncaffeinated-website/wiki/Design-Ideas](https://github.com/ajuna345/uncaffeinated-website/wiki/Design-Ideas)
+
+## Model/Inspiration
+- [UNCAFFEINATED Wordpress News Posts](https://uncaffeinatednews.wordpress.com/)
+  - This site inspired my news grids, cards, and layout for this project.
+  - I used my portfolio photos for news stories and improved the CIS-376 news site by adding a search bar and changing the layout.
+
+![Placeholder for site/app image](images/placeholder-site-image.png)
+
+## Code block + explanation (“news-search.js”)
+This code waits for a user to type in the search bar, then it finds every news card that was just built from your data file. It changes text to lowercase to improve matching, then checks the title and story text of each card to see if they match. If a card doesn't have the words you're looking for, the script set the item display to ‘none’ and hides it so users only see matching items.
 
 ```javascript
 // search for matching news items
@@ -51,3 +76,4 @@ if (searchInput) {
         });
     });
 }
+})
