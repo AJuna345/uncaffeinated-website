@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <p class="card-text">${item.text}</p>
                         </div>
                         <div class="card-footer bg-white border-0">
-                            <a href="${item.link}" target="_blank" class="btn btn-outline-success w-100">
+                            <a href="${item.link}" target="_blank" class="btn btn-purple w-100">
                                 Read More <span class="visually-hidden">about ${item.title}</span>
                             </a>
                         </div>
