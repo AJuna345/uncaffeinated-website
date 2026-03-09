@@ -38,5 +38,5 @@ I used the picture news stories from the website. I improved the news site by ad
 
 
 
-I have checkedboth desktop and phone and made sure it works.
+I have checked both desktop and phone and made sure it works.
 
