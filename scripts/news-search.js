@@ -7,12 +7,12 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then(data => {
-            // Build the HTML news cards using the JSON data
+            // build the HTML news cards using the JSON data
             data.forEach(item => {
                 const col = document.createElement('div');
                 col.className = 'col news-item';
                 
-                // Using item.text matching our updated JSON key
+                // build the card using the item.text matching the updated JSON key
                 col.innerHTML = `
                     <div class="card">
                         <h2 class="card-title">${item.title}</h2>
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 searchInput.addEventListener('input', function() {
                     const searchTerm = this.value.toLowerCase();
                     
-                    // Re-query the items now that they are physically on the page
+                    // Search the items on the page again and turn off the display for ones that don't match
                     const newsItems = document.querySelectorAll('.news-item');
 
                     newsItems.forEach(item => {
