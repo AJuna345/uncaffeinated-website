@@ -49,7 +49,8 @@ Website Development and Photography by [Aiden (A.J.) Ramsden](https://www.facebo
   - This site inspired my news grids, cards, and layout for this project.
   - I used my portfolio photos for news stories and improved the CIS-376 news site by adding a search bar and changing the layout.
 
-![Placeholder for site/app image](images/placeholder-site-image.png)
+<img width="1441" height="1250" alt="Screenshot 2026-03-05 134606" src="https://github.com/user-attachments/assets/7f0c0121-2984-47bb-a5e3-e0dd76a01395" />
+
 
 ## Code block + explanation (“news-search.js”)
 This code waits for a user to type in the search bar, then it finds every news card that was just built from your data file. It changes text to lowercase to improve matching, then checks the title and story text of each card to see if they match. If a card doesn't have the words you're looking for, the script set the item display to ‘none’ and hides it so users only see matching items.
