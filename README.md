@@ -1,42 +1,53 @@
-# UNcaffinated news website
+# UNCAFFEINATED - Low Stress News
+[cite_start]“UNCAFFEINATED - Low Stress News” [cite: 1, 3]
 
-Attributions
-Bootstrap 5: used to set up the news grid system, navigation bar, and UI components
+### Authorship & Attribution
+* [cite_start]**Development & Photography:** Aiden (A.J.) Ramsden [cite: 6]
+* [cite_start]**Inspirations:** WordPress Uncaffeinated News site layouts and interfaces [cite: 16, 17]
+* [cite_start]**Educational Resources:** * Code shared by Professor Barry Cumbie (University of North Alabama) [cite: 18, 19]
+    * [cite_start]W3Schools (HTML, CSS, JS, and JSON tutorials) [cite: 8]
+    * [cite_start]web.dev (Resource hints and font optimization guides) [cite: 11, 12, 14]
+    * [cite_start]Google Fonts (Roboto font implementation) [cite: 10, 26, 28]
+* [cite_start]**Libraries & Frameworks:** Bootstrap 5.3.0 (Grid system, navigation, and UI components) [cite: 20, 21, 22]
+* [cite_start]**Accessibility:** WebAIM Contrast Checker [cite: 9]
+* [cite_start]**Assets:** Banners and articles from Uncaffeinated WordPress and YouTube; dynamic news data from `news-data.json` [cite: 24, 25]
 
-Uncaffinated News: used news articles, picures, and inspiration from layout
+> [cite_start]“Low-stress news about Northern Alabama and UNA student life.” [cite: 30]
 
-Mr. Cumbie/in class/teachers website: used code that I got from Mr. Cumbie and his website or in class.
+### User Story
+[cite_start]“I want to showcase my UNA media projects and campus stories in a digital portfolio to demonstrate my skills and abilities to potential employers.” [cite: 32]
 
-Tagline
-Low Stress News
+### Links
+* [cite_start]**Repository:** [https://github.com/ajuna345/uncaffeinated-website](https://github.com/ajuna345/uncaffeinated-website) [cite: 34]
+* [cite_start]**Deployed App:** [https://ajuna345.github.io/uncaffeinated-website/](https://ajuna345.github.io/uncaffeinated-website/) [cite: 35]
+* [cite_start]**Design Evidence (Wiki):** [https://github.com/ajuna345/uncaffeinated-website/wiki/Design-Ideas](https://github.com/ajuna345/uncaffeinated-website/wiki/Design-Ideas) [cite: 36]
 
-As a UNA student
-I want to share my news stories
-So that People know about the news that hasn't been shared
+### Model / Inspiration
+[cite_start]**Source:** UNCAFFEINATED WordPress News Posts [cite: 38]
+![WordPress Inspiration](https://raw.githubusercontent.com/ajuna345/uncaffeinated-website/main/docs/inspiration-screenshot.png) 
+[cite_start]*Note: I used my portfolio photos for news stories and improved upon the original layout by adding a search bar and modernizing the grid system.* [cite: 39, 40]
 
-Links
-My wordpress site:
-https://uncaffeinatednews.wordpress.com/ 
+### Code Block & Explanation
+[cite_start]This snippet from `news-search.js` handles the real-time filtering of news stories[cite: 41]:
 
-Deployed App: https://ajuna345.github.io/CIS-376-Website/
+```javascript
+// search for matching news items
+if (searchInput) {
+    searchInput.addEventListener('input', function() {
+        const searchTerm = this.value.toLowerCase();
 
-Repo: https://github.com/AJuna345/CIS-376-Website
+        // Search items on the page again and turn off the display for ones that don't match
+        const newsItems = document.querySelectorAll('.news-item');
 
-<img width="1441" height="1250" alt="image" src="https://github.com/user-attachments/assets/94eb4c44-839a-4829-946c-f2776105b55f" />
+        newsItems.forEach(item => {
+            const title = item.querySelector('.card-title').textContent.toLowerCase();
+            const text = item.querySelector('.card-text').textContent.toLowerCase();
 
-I used the picture news stories from the website. I improved the news site by adding a search bar and fixed how it looked
-
-
-
-
-<img width="250" height="700" alt="376 website 1" src="https://github.com/user-attachments/assets/e7d7375f-b7dc-4b54-93f5-625c92087284" />
-<img width="250" height="700" alt="3 76 website 2" src="https://github.com/user-attachments/assets/332bfdf1-3f7e-440f-949d-0a53fa8c13c7" />
-<img width="250" height="700" alt="3 76 website 3" src="https://github.com/user-attachments/assets/d95d0eed-8e9e-477b-b8e3-ed027a09880b" />
-<img width="250" height="700" alt="3 76 website 2" src="https://github.com/user-attachments/assets/a3858e04-1f68-49e5-bc37-3db9ee4368b7" />
-<img width="1791" height="1045" alt="image" src="https://github.com/user-attachments/assets/77417d54-b5fe-42ba-a8e9-677ed878ddfa" />
-
-
-
-
-I have checked both desktop and phone and made sure it works.
-
+            if (title.includes(searchTerm) || text.includes(searchTerm)) {
+                item.style.display = '';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    });
+}
