@@ -28,14 +28,6 @@ I used the picture news stories from the website. I improved the news site by ad
 
 
 
-document.addEventListener('DOMContentLoaded', () => {
-    const searchInput = document.getElementById('newsSearchInput');
-    const newsItems = document.querySelectorAll('.news-item');
-
-document.addEventListener('DOMContentLoaded', () => {
-    const searchInput = document.getElementById('newsSearchInput');
-    const newsItems = document.querySelectorAll('.news-item');
-
 
 <img width="250" height="700" alt="376 website 1" src="https://github.com/user-attachments/assets/e7d7375f-b7dc-4b54-93f5-625c92087284" />
 <img width="250" height="700" alt="3 76 website 2" src="https://github.com/user-attachments/assets/332bfdf1-3f7e-440f-949d-0a53fa8c13c7" />
