@@ -77,3 +77,34 @@ if (searchInput) {
     });
 }
 })
+```
+## Architecture / Infrastructure Notes
+- The UNCAFFEINATED news application uses Bootstrap to handle the news grid, button styling, and search bars, which helps the site work on both desktop and mobile browsers.
+- My application uses:
+  - A dynamic approach to show news grids and cards.
+    - Instead of adding every news story directly as HTML, it reads the articles from a JSON data asset file.
+  - The JavaScript `fetch` method to get stories from an internal file (`news-data.json`).
+    - Once the data is read, the JavaScript code creates HTML cards and adds them to the news grid.
+    - This makes the site much easier to update in the future because I only have to add articles to the JSON data file.
+  - The Bootstrap Modal on the main page for user login.
+    - Once users enter the correct password, it stores the "logged-in" state in temporary session storage.
+    - This remembers the user during the session but wipes data for better security when the page is closed or the user logs out.
+
+## Verification
+
+### Browser Compatibility
+I tested the functionality and layout of the UNcaffeinated News application on these browsers:
+
+- Desktop
+  - Google Chrome
+  - Microsoft Edge
+  - Mozilla Firefox
+- Mobile
+  - Chrome (Android)
+  - Safari (iOS)
+
+### Android Phone Screenshots
+
+![Placeholder for Android screenshot 1](images/placeholder-android-screenshot-1.png)
+![Placeholder for Android screenshot 2](images/placeholder-android-screenshot-2.jpg)
+![Placeholder for Android screenshot 3](images/placeholder-android-screenshot-3.jpg)
