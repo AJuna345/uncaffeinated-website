@@ -13,7 +13,7 @@ body {
     color: white !important; 
 }
 
-/* Unified Card Styling */
+/* Card Styling */
 .card { 
     height: 100%; 
     display: flex; 
@@ -55,4 +55,11 @@ body {
 .search-container { 
     max-width: 600px; 
     margin: 0 auto 40px auto; 
+}
+
+.btn-purple {
+    background-color: #8e4fd6;
+    color: white;
+    border: none;
+    transition: background-color 0.2s ease;
 }
