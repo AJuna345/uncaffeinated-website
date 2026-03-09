@@ -58,8 +58,15 @@ body {
 }
 
 .btn-purple {
-    background-color: #8e4fd6;
+    background-color: #592B8A; /* UNA Purple: https://www.una.edu/emdc/brand/colors.html */
     color: white;
     border: none;
     transition: background-color 0.2s ease;
 }
+
+.btn-purple:hover {
+    background-color: ##FFB92A; /* UNA Gold: https://www.una.edu/emdc/brand/colors.html */
+    color: white;
+}
+
+
