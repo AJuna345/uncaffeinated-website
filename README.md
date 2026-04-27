@@ -1,7 +1,8 @@
 # UNCAFFEINATED - Low Stress News
 
-
+## App Title
 “UNCAFFEINATED - Low Stress News”
+- Added required “Title (H1) + short descriptor” to the top of README.md
 
 
 ## Authorship & Attribution
