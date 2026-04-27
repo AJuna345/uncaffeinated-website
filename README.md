@@ -3,7 +3,7 @@
 ## App Title
 “UNCAFFEINATED - Low Stress News”
 - Added required “Title (H1) + short descriptor” to the top of README.md
-This is a news website that shows off my work that I made for previous assignments.
+
 
 ## Authorship & Attribution
 Website Development and Photography by [Aiden (A.J.) Ramsden](https://www.facebook.com/profile.php?id=61565364982227)
